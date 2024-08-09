@@ -16,7 +16,7 @@ const RecentProjects = ({projects}:{projects:Projects[]}) => {
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10 overflow-hidden hover:overflow-auto w-[70vw] h-[60vh]">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10 overflow-auto w-[70vw] h-[60vh]">
         {projects.slice(0,3).map((item) => (
           <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
